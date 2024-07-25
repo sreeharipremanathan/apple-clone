@@ -25,9 +25,9 @@ ul {
     text-decoration: none;
   }
   
-  li a:hover {
-    background-color: #bebebe;
-  }
+  /* li a:hover {
+    background-color: #f9f5f5;
+  } */
   
   .active {
     background-color: #04AA6D;
@@ -52,7 +52,7 @@ ul {
   }
   .ipad1{
     position: absolute;
-    top: 160px;
+    top: 130px;
     text-align: center;
     width: 100%;
     color: white;
@@ -64,6 +64,19 @@ ul {
   }
   .center{
     margin: auto;
-    width: 60%;
+    width: 54%;
     left: 0px;
+  }
+  .mac{
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    font-family: sans-serif;
+
+  }
+  .logo{
+    width: 11px;
+    height: 16px;
   }
