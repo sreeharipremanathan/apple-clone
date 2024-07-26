@@ -3,8 +3,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #e9e8e8;
-    position: fixed;
+    background-color: #e9e8e800;
+    /* position: fixed; */
     top: 0;
     width: 100%;
     position: fixed;
@@ -36,6 +36,10 @@ ul {
     width: 100%;
     height: auto;
   }
+  .scnddiv{
+    margin-top: 10px;
+    position: relative;
+  }
   .a{
     margin-top: 10px;
     position: relative;
@@ -52,7 +56,7 @@ ul {
   }
   .ipad1{
     position: absolute;
-    top: 130px;
+    top: 150px;
     text-align: center;
     width: 100%;
     color: white;
@@ -64,7 +68,7 @@ ul {
   }
   .center{
     margin: auto;
-    width: 54%;
+    width: 52%;
     left: 0px;
   }
   .mac{
@@ -80,3 +84,27 @@ ul {
     width: 11px;
     height: 16px;
   }
+  .search{
+    top: 5px;
+    width: 15px;
+    height: 16px;
+  }
+  .bag{
+    width: 20px;
+    height: 15px;
+  }
+  .ipad2{
+    position: absolute;
+    top: 200px;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 40px;
+    left: 46%;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  a{
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  
