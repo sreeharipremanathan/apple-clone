@@ -1,10 +1,9 @@
-ul {
+/* ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #e9e8e800;
-    /* position: fixed; */
     top: 0;
     width: 100%;
     position: fixed;
@@ -23,14 +22,23 @@ ul {
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
-  }
+  } */
   
   /* li a:hover {
     background-color: #f9f5f5;
-  } */
+  /* } */
   
-  .active {
-    background-color: #04AA6D;
+  .navbar{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(232, 232, 232, 0.153);
+    top: 0px;
+    /* position: fixed; */
+  }
+  .navbar a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #000;
   }
   img{
     width: 100%;
@@ -66,11 +74,7 @@ ul {
   .op{
     opacity: 0.9;
   }
-  .center{
-    margin: auto;
-    width: 52%;
-    left: 0px;
-  }
+
   .mac{
     position: absolute;
     top: 0px;
@@ -79,6 +83,17 @@ ul {
     font-size: 50px;
     font-family: sans-serif;
 
+  }
+  .mac2{
+    position: absolute;
+    top: 200px;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 40px;
+    left: 46%;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    
   }
   .logo{
     width: 11px;
@@ -95,16 +110,48 @@ ul {
   }
   .ipad2{
     position: absolute;
-    top: 200px;
-    border: 2px solid black;
+    top: 220px;
+    border: none;
     padding: 15px;
     border-radius: 40px;
     left: 46%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(16, 101, 237, 0.893);
     text-decoration: none;
+    
   }
   a{
     text-decoration: none;
     font-family: sans-serif;
   }
-  
+  .grid{
+    display: flex;
+    background-color: white;
+  }
+  .g1{
+    flex: 50%;
+    background-color: white;
+    padding: 20px;
+    height: auto;
+  }
+  .g2{
+    flex: 50%;
+    background-color: white;
+    padding: 20px;
+    height: auto;
+  }
+  .grid2{
+    display: flex;
+    background-color: white;
+  }
+.g3{
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  height: auto;
+}  
+.g4{
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  height: auto;
+}
