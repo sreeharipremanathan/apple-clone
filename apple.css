@@ -155,3 +155,23 @@
   padding: 20px;
   height: auto;
 }
+.appleint{
+  position: absolute;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.imgscrl{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 600px;
+  display: flex;
+  overflow: auto;
+}
+.imgscrl img{
+  padding: 5px 10px;
+}
+.imgscrl video{
+  padding: 10px 20px;
+}
