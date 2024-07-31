@@ -40,9 +40,57 @@
     padding: 5px 10px;
     color: #000;
   }
+  #imgair{
+    position: relative;
+  }
   img{
     width: 100%;
     height: auto;
+  }
+  .airpod{
+    position: absolute;
+    text-align: center;
+    border: 1px solid rgba(16, 101, 237, 0.893);
+    border-radius: 40px;
+    text-align: center;
+    bottom: 0px;
+    left: 52%;
+    padding: 15px;
+    font-size:larger;
+    background-color: rgb(255, 255, 255);
+
+  }
+  .airpod:hover{
+    background-color: rgba(16, 101, 237, 0.893);
+    color: white;
+  }
+  .airpod a:hover{
+    color: white;
+  }
+  .airpod a{
+    color: rgba(16, 101, 237, 0.893);
+  }
+  .airpod1{
+    position: absolute;
+    text-align: center;
+    border: 1px solid rgba(16, 101, 237, 0.893);
+    border-radius: 40px;
+    text-align: center;
+    bottom: 0px;
+    left: 44%;
+    padding: 15px;
+    font-size:larger;
+    background-color: rgb(255, 255, 255);
+  }
+  .airpod1:hover{
+    background-color: rgba(16, 101, 237, 0.893);
+    color: white;
+  }
+  .airpod1 a:hover{
+    color: white;
+  }
+  .airpod1 a{
+    color: rgba(16, 101, 237, 0.893);
   }
   .scnddiv{
     margin-top: 10px;
@@ -60,7 +108,7 @@
     color: white;
     font-size: 50px;
     font-family: sans-serif;
-
+    
   }
   .ipad1{
     position: absolute;
@@ -87,13 +135,45 @@
   .mac2{
     position: absolute;
     top: 200px;
-    border: 2px solid black;
+    border: 2px solid rgba(16, 101, 237, 0.893);
     padding: 15px;
     border-radius: 40px;
-    left: 46%;
+    left: 45%;
     background-color: rgb(255, 255, 255);
     text-decoration: none;
     
+  }
+  .mac2 a{
+    color: rgba(16, 101, 237, 0.893);
+  }
+  .mac2:hover{
+    background-color: rgba(16, 101, 237, 0.893);
+    /* color: white; */
+  }
+  .mac2 a:hover{
+    color: white;
+  }
+
+  .mac3{
+    position: absolute;
+    top: 200px;
+    border: 2px solid rgba(16, 101, 237, 0.893);
+    padding: 15px;
+    border-radius: 40px;
+    left: 52%;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+  }
+  .mac3 a{
+    color: rgba(16, 101, 237, 0.893);
+  }
+  .mac3:hover{
+    background-color: rgba(16, 101, 237, 0.893);
+    /* color: white; */
+  }
+  .mac3 a:hover{
+    color: white;
   }
   .logo{
     width: 11px;
@@ -110,22 +190,44 @@
   }
   .ipad2{
     position: absolute;
-    top: 220px;
+    top: 240px;
     border: none;
     padding: 15px;
     border-radius: 40px;
-    left: 46%;
+    left: 45%;
     background-color: rgba(16, 101, 237, 0.893);
     text-decoration: none;
     
   }
+  .ipad2 a{
+    color: white;
+  }
+
+
+  .ipad3{
+    position: absolute;
+    top: 240px;
+    border: none;
+    padding: 15px;
+    border-radius: 40px;
+    left: 52%;
+    background-color: rgba(16, 101, 237, 0.893);
+    text-decoration: none;
+    
+  }
+  .ipad3 a{
+    color: white;
+  }
+
+
+
   a{
     text-decoration: none;
     font-family: sans-serif;
   }
   .watch{
     display: flex;
-    position: absolute;
+    position: relative;
     text-align: center;
     color: rgb(23, 11, 11);
     width: 100%;
@@ -162,6 +264,7 @@
   height: auto;
 }  
 .g4{
+  position: relative;
   flex: 50%;
   background-color: white;
   padding: 20px;
@@ -183,8 +286,37 @@
   transition-delay: 0.5s;
 }
 .scrl img{
-  padding: 5px 10px;
+  padding: 5px 5px;
 }
-.scrl video{
-  padding: 10px 20px;
+.watchtxt{
+  position: absolute;
+}
+.appinttxt{
+  position: relative;
+}
+.scrl2{
+  background-color: white;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  overflow: auto;
+}
+.scrl2 img{
+  padding: 5px 5px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: rgb(249, 250, 252);
+}
+.footer div{
+  background-color: rgb(249, 250, 252);
+  color: rgb(128, 127, 127);
+  font-size: 14px;
+  font-family: sans-serif;
+  width: 1000px;
+  height: 100%;
 }
