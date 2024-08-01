@@ -320,3 +320,8 @@
   width: 1000px;
   height: 100%;
 }
+@media screen and (max-width:560px) {
+  .airpod{
+    left: 40%;
+  }  
+}
